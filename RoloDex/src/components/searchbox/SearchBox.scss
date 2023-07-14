@@ -1,0 +1,10 @@
+@use '../../assets/sass/utils/' as *;
+
+input[type='search']{
+    width: rem(200);
+    height: rem(50);
+    margin: rem(10) 0;
+    padding: rem(10);
+    border-radius: rem(5);
+    outline: none;
+}

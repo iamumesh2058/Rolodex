@@ -1,0 +1,17 @@
+@use '../../assets/sass/utils/' as *;
+
+.card{
+    height: clamp(rem(350), rem(500),  rem(250) + 2vw);
+    background-color: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: rem(10);
+    box-shadow: 2px 5px 15px rgba(255, 255, 255, 0.2);
+    transition: transform ease-in-out 0.5s;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}

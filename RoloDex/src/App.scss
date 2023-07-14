@@ -1,0 +1,14 @@
+@use './assets/sass/utils/' as *;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header {
+        font-family: 'Bigelow Rules', cursive;
+        color: var(--card-bg);
+        font-size: rem(50);
+        margin: rem(10) 0;
+    }
+}

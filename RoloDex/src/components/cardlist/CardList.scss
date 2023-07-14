@@ -1,0 +1,10 @@
+@use '../../assets/sass/utils/' as *;
+
+.card-container{
+    display: grid;
+    width: 95%;
+    margin: rem(20) auto;
+    grid-template-columns: repeat( auto-fit, minmax(rem(250), 3fr) );
+    column-gap: rem(25);
+    row-gap: rem(25);
+}
